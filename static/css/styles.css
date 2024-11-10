@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+}
+
+.hero-section {
+    background-image: url('/static/images/hero-bg.jpg'); /* Add a beautiful restaurant-related image */
+    background-size: cover;
+    background-position: center;
+    height: 40vh; /* Full height of the viewport */
+    position: relative;
+    margin: 0;
+    padding: 0; /* Remove padding to avoid extra space */
+}
+
+.hero-section .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    height: 100%; /* Ensure the overlay covers the full hero section */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #b76e79; /* Stylish color */
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    color: #333;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/* Styling for uniform gallery images */
+.gallery-section img {
+    width: 100%; /* Ensures images fit the container width */
+    height: 250px; /* Set a uniform height for all images */
+    object-fit: cover; /* Ensures the images maintain aspect ratio and fill the container */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
