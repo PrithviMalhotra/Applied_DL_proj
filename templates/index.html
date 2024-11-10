@@ -147,12 +147,10 @@
     <!-- IBM Watson Assistant Integration -->
     <script>
         window.watsonAssistantChatOptions = {
-          integrationID: "beccf052-b1bc-4d33-86d7-69c13b2625da", // The ID of this integration.
+          integrationID: "31f79ee6-6a7b-422e-9445-7e894687b294", // The ID of this integration.
           region: "us-south", // The region your integration is hosted in.
-          serviceInstanceID: "19cdd026-6ff5-4efa-95fa-25febfc254e6", // The ID of your service instance.
-          onLoad: async (instance) => {
-              instance.render();
-          }
+          serviceInstanceID: "2bc322f3-627a-42e3-86de-4cd1687ecaa3", // The ID of your service instance.
+          onLoad: async (instance) => { await instance.render(); }
         };
         setTimeout(function(){
           const t=document.createElement('script');
